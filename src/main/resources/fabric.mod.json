@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "passivesearchbar",
+  "version": "${version}",
+  "name": "PassiveSearchBar",
+  "description": "",
+  "authors": [
+    "VioletMistCloudDrift"
+  ],
+  "contact": {
+    "sources": "https://github.com/VioletMistCloudDrift/PassiveSearchBar"
+  },
+  "license": "Nova-Relay-License-1.0",
+  "environment": "client",
+  "mixins": [
+    "passivesearchbar-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}

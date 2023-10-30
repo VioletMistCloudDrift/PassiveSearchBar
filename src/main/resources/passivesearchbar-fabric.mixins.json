@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "team.dovecotmc.passivesearchbar.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "MixinCreativeModelInventoryScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
