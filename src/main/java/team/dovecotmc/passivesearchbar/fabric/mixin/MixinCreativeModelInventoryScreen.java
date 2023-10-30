@@ -1,4 +1,4 @@
-package team.dovecotmc.passivesearchbar.mixin;
+package team.dovecotmc.passivesearchbar.fabric.mixin;
 
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
