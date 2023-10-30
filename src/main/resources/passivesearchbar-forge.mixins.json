@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "team.dovecotmc.passivesearchbar.forge.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "passivesearchbar-forge.refmap.json",
+  "client": [
+    "MixinCreativeModelInventoryScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

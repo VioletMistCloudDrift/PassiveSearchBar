@@ -1,0 +1,13 @@
+modLoader = "lowcodefml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+displayURL = "https://github.com/VioletMistCloudDrift/PassiveSearchBar" #optional
+authors = "${mod_authors}" #optional
+displayTest = "IGNORE_ALL_VERSION"
+
+# The description text for the mod (multi line!) (#mandatory)
+description = '''${mod_description}'''
