@@ -19,18 +19,18 @@ public class MixinCreativeModelInventoryScreen {
         instance.setCanLoseFocus(true);
     }
 
-    @Redirect(method = "selectTab", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/components/EditBox;setFocused(Z)V"))
+    @Redirect(method = "selectTab", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/components/EditBox;setFocus(Z)V"))
     private void passivesearchbar$redirect$selectTab$2(EditBox instance, boolean bl) {
-        instance.setFocused(false);
+        instance.setFocus(false);
     }
 
     @Inject(method = "mouseClicked", at = @At("RETURN"))
     private void passivesearchbar$inject$mouseClicked(double d, double e, int i, CallbackInfoReturnable<Boolean> cir) {
-        if (!searchBox.mouseClicked(d, e, i)) searchBox.setFocused(false);
+        if (!searchBox.mouseClicked(d, e, i)) searchBox.setFocus(false);
     }
 
     @Inject(method = "hasClickedOutside", at = @At("RETURN"))
     private void passivesearchbar$inject$hasClickedOutside(double d, double e, int i, int j, int k, CallbackInfoReturnable<Boolean> cir) {
-        if (cir.getReturnValue()) searchBox.setFocused(false);
+        if (cir.getReturnValue()) searchBox.setFocus(false);
     }
 }
