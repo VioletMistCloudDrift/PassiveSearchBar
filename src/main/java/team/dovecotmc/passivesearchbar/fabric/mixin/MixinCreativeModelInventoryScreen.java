@@ -28,9 +28,4 @@ public class MixinCreativeModelInventoryScreen {
     private void passivesearchbar$inject$mouseClicked(double d, double e, int i, CallbackInfoReturnable<Boolean> cir) {
         if (!searchBox.mouseClicked(d, e, i)) searchBox.setFocused(false);
     }
-
-    @Inject(method = "hasClickedOutside", at = @At("RETURN"))
-    private void passivesearchbar$inject$hasClickedOutside(double d, double e, int i, int j, int k, CallbackInfoReturnable<Boolean> cir) {
-        if (cir.getReturnValue()) searchBox.setFocused(false);
-    }
 }
