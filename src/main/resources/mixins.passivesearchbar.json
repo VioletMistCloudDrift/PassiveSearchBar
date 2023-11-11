@@ -1,0 +1,11 @@
+{
+  "package": "neko.violetmist.passivesearchbar.mixin",
+  "required": true,
+  "refmap": "mixins.passivesearchbar.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinGuiContainerCreative"
+  ]
+}

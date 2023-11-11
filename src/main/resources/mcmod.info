@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "passivesearchbar",
+    "name": "PassiveSearchBar",
+    "description": "Make your search bar passive!",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/VioletMistCloudDrift/PassiveSearchBar",
+    "authorList": [
+      "VioletMistCloudDrift"
+    ]
+  }
+]
